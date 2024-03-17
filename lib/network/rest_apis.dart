@@ -270,6 +270,7 @@ Future<DashboardResponse> userDashboard({bool isCurrentLocation = false, double?
     appStore.setLoading(false);
 
     cachedDashboardResponse = dashboardResponse;
+    print("resp $cachedDashboardResponse");
 
     setValue(IS_EMAIL_VERIFIED, dashboardResponse.isEmailVerified.getBoolInt());
     appStore.setUnreadCount(dashboardResponse.notificationUnreadCount.validate());
@@ -423,6 +424,7 @@ Future<List<CategoryData>> getCategoryListWithPagination(int page, {var perPage 
 
     cachedCategoryList = categoryList;
 
+    print("pepe $cachedCategoryList");
     lastPageCallBack?.call(res.categoryList.validate().length != PER_PAGE_CATEGORY_ITEM);
 
     appStore.setLoading(false);
