@@ -177,7 +177,7 @@ class LanguageEs extends BaseLanguage {
   String get category => 'Categorías';
 
   @override
-  String get booking => 'Reservas';
+  String get booking => 'Camellos';
 
   @override
   String get profile => 'Perfil';
@@ -325,13 +325,13 @@ class LanguageEs extends BaseLanguage {
   String get lblLoginTitle => "¡Hola de nuevo!";
 
   @override
-  String get lblLoginSubTitle => "¡Bienvenido de vuelta, te hemos extrañado por mucho tiempo!";
+  String get lblLoginSubTitle => "¡Bienvenido de nuevo, vamos a camellar!";
 
   @override
   String get lblOrContinueWith => "O Continúa Con";
 
   @override
-  String get lblHelloUser => "¡Hola Usuario!";
+  String get lblHelloUser => "¡Hola!";
 
   @override
   String get lblSignUpSubTitle => "Crea tu cuenta para una mejor experiencia";
@@ -661,7 +661,7 @@ class LanguageEs extends BaseLanguage {
   String get lblSignInWithOTP => "Iniciar sesión con OTP";
 
   @override
-  String get lblDangerZone => "Zona de Peligro";
+  String get lblDangerZone => "¡Ojo!";
 
   @override
   String get lblDeleteAccount => "Eliminar Cuenta";
@@ -721,7 +721,7 @@ class LanguageEs extends BaseLanguage {
   String get lblIsAvailableWouldYouLike => "está disponible. ¿Te gustaría actualizar?";
 
   @override
-  String get lblRegisterAsPartner => "Registrarse como Socio";
+  String get lblRegisterAsPartner => "Registrarse como Camellador Freelo";
 
   @override
   String get lblSignInWithApple => "Iniciar sesión con Apple";
@@ -775,22 +775,22 @@ class LanguageEs extends BaseLanguage {
   String get addNewService => "Agregar Nuevo Servicio";
 
   @override
-  String get newPostJobRequest => "Publicar Nuevo Trabajo";
+  String get newPostJobRequest => "Publicar nuevo camello";
 
   @override
-  String get postJobTitle => "Título del Trabajo";
+  String get postJobTitle => "Título del Camello";
 
   @override
-  String get postJobDescription => "Descripción del Trabajo";
+  String get postJobDescription => "Descripción del Camello";
 
   @override
   String get services => "Servicios";
 
   @override
-  String get myPostJobList => "Mi Trabajo Publicado";
+  String get myPostJobList => "Mi Camello Publicado";
 
   @override
-  String get requestNewJob => "Solicitar Nuevo Trabajo";
+  String get requestNewJob => "Solicitar Nuevo Camello";
 
   @override
   String get noNotifications => "Sin Notificaciones";
@@ -844,7 +844,7 @@ class LanguageEs extends BaseLanguage {
   String get save => 'Guardar';
 
   @override
-  String get createPostJobWithoutSelectService => 'No puedes crear un trabajo publicado sin seleccionar un servicio';
+  String get createPostJobWithoutSelectService => 'No puedes crear un Camello publicado sin seleccionar un servicio';
 
   @override
   String get selectCategory => 'Seleccionar Categoría';
@@ -856,7 +856,7 @@ class LanguageEs extends BaseLanguage {
   String get selectedBookingTimeIsAlreadyPassed => 'El tiempo de reserva seleccionado ya ha pasado. Por favor selecciona otro tiempo.';
 
   @override
-  String get jobPrice => 'Precio del Trabajo';
+  String get jobPrice => 'Precio del Camello';
 
   @override
   String get estimatedPrice => 'Precio Estimado';
@@ -868,7 +868,7 @@ class LanguageEs extends BaseLanguage {
   String get assignedProvider => 'Proveedor Asignado';
 
   @override
-  String get myPostDetail => 'Detalles de mi Trabajo Publicado';
+  String get myPostDetail => 'Detalles de mi Camello Publicado';
 
   @override
   String get thankYou => '¡Gracias!';
@@ -886,10 +886,10 @@ class LanguageEs extends BaseLanguage {
   String get noServiceAdded => 'No se ha agregado ningún Servicio';
 
   @override
-  String get noPostJobFound => 'No se encontró ningún Trabajo Publicado';
+  String get noPostJobFound => 'No se encontró ningún Camello Publicado';
 
   @override
-  String get noPostJobFoundSubtitle => 'Cuando publiques tu trabajo, cada proveedor será notificado, y podrás elegir el proveedor deseado para completar el trabajo.';
+  String get noPostJobFoundSubtitle => 'Cuando publiques tu Camello, cada proveedor será notificado, y podrás elegir el proveedor deseado para completar el Camello.';
 
   @override
   String get pleaseEnterValidOTP => 'Por favor, ingresa un OTP válido';
@@ -928,7 +928,7 @@ class LanguageEs extends BaseLanguage {
   String get clearChat => 'Borrar chat';
 
   @override
-  String get jobRequestSubtitle => "¿No encontraste tu servicio? No te preocupes, puedes publicar tus requisitos.";
+  String get jobRequestSubtitle => "¿No encontraste un camellador? No te preocupes, publica un camello.";
 
   @override
   String get verified => 'Verificado';
@@ -964,7 +964,7 @@ class LanguageEs extends BaseLanguage {
   String get somethingWentWrong => 'Algo salió mal';
 
   @override
-  String get postJob => 'Publicar Trabajo';
+  String get postJob => 'Publicar Camello';
 
   @override
   String get package => 'Paquete';

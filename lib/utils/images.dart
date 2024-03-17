@@ -1,4 +1,5 @@
 const appLogo = 'assets/ic_app_logo.png';
+const logoSplash = 'assets/logo_splash.png';
 
 //region Images
 const about_us_page = 'assets/images/about_us_page.png';
