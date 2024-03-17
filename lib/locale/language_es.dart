@@ -3,13 +3,13 @@ import 'package:booking_system_flutter/utils/configs.dart';
 
 class LanguageEs extends BaseLanguage {
   @override
-  String get walkTitle1 => 'Encuentra tus Servicios';
+  String get walkTitle1 => 'Encuentra al adecuado';
 
   @override
-  String get walkTitle2 => 'Reserva un Servicio';
+  String get walkTitle2 => 'Contrata al Camellador';
 
   @override
-  String get walkTitle3 => 'Pasarela de Pago';
+  String get walkTitle3 => 'Controla tu presupuesto';
 
   @override
   String get getStarted => 'Empezar';
@@ -237,13 +237,13 @@ class LanguageEs extends BaseLanguage {
   String get btnSubmit => "Enviar";
 
   @override
-  String get walkThrough1 => "Encuentra un servicio según tus preferencias.";
+  String get walkThrough1 => "Encuentra el camellador adecuado según tu proyecto, necesidades o tareas por hacer.";
 
   @override
-  String get walkThrough2 => "Reserva Servicios en tu Tiempo.";
+  String get walkThrough2 => "Contrata al Camellador que encontraste por horas, por días o por el proyecto completo si se requiere.";
 
   @override
-  String get walkThrough3 => "Elige la opción de pago preferida y obtén el mejor servicio.";
+  String get walkThrough3 => "Elige la opción de pago preferida, controla tu presupuesto de manera inteligente y liberará el pago al Camellador si cumplió su tarea en tiempos y condiciones.";
 
   @override
   String get lblNotification => "Notificaciones";
@@ -553,10 +553,10 @@ class LanguageEs extends BaseLanguage {
   String get lblBookNow => "Reservar Ahora";
 
   @override
-  String get lblWelcomeToHandyman => "Bienvenido a $APP_NAME";
+  String get lblWelcomeToHandyman => "¡Hola $APP_NAME!";
 
   @override
-  String get lblWalkThroughSubTitle => "$APP_NAME - Aplicación de Servicios Domésticos a Demanda con Solución Completa";
+  String get lblWalkThroughSubTitle => "Regístrate en camellador para encontrar al profesional adecuado para tus proyectos";
 
   @override
   String get textHandyman => "Camellador";
@@ -616,7 +616,7 @@ class LanguageEs extends BaseLanguage {
   String get lblTermsOfService => "Términos de Servicio";
 
   @override
-  String get lblWalkThrough0 => "$APP_NAME - $APP_NAME_TAG_LINE con Solución Completa";
+  String get lblWalkThrough0 => "Regístrate ahora y contrata al camellador adecuado para tu proyecto";
 
   @override
   String get lblServiceTotalTime => "Tiempo Total del Servicio";
@@ -1051,7 +1051,7 @@ class LanguageEs extends BaseLanguage {
   String get lblConfirmationForDeleteMsg => '¿Estás seguro de que quieres eliminar el mensaje?';
 
   @override
-  String get favouriteProvider => 'Proveedor Favorito';
+  String get favouriteProvider => 'Camelladores favoritos';
 
   @override
   String get noProviderFoundMessage => 'Tus proveedores favoritos aparecerán aquí';
