@@ -15,16 +15,16 @@ const DEFAULT_LANGUAGE = 'es';
 /// This will be used in Registered As Partner in Sign In Screen where your users can redirect to the Play/App Store for Provider App
 /// You can specify in Admin Panel, These will be used if you don't specify in Admin Panel
 const PROVIDER_PACKAGE_NAME = 'com.iqonic.provider';
-const IOS_LINK_FOR_PARTNER = "https://apps.apple.com/in/app/handyman-provider-app/id1596025324";
+const IOS_LINK_FOR_PARTNER = "https://camellador.com";
 
-const IOS_LINK_FOR_USER = 'https://apps.apple.com/us/app/handyman-service-user/id1591427211';
+const IOS_LINK_FOR_USER = 'https://camellador.com';
 
 const DASHBOARD_AUTO_SLIDER_SECOND = 5;
 
-const TERMS_CONDITION_URL = 'https://iqonic.design/terms-of-use/';
-const PRIVACY_POLICY_URL = 'https://iqonic.design/privacy-policy/';
-const HELP_AND_SUPPORT_URL = 'https://iqonic.design/privacy-policy/';
-const REFUND_POLICY_URL = 'https://iqonic.design/licensing-terms-more/#refund-policy';
+const TERMS_CONDITION_URL = 'https://camellador.com/terms-of-use/';
+const PRIVACY_POLICY_URL = 'https://camellador.com/privacy-policy/';
+const HELP_AND_SUPPORT_URL = 'https://camellador.com/privacy-policy/';
+const REFUND_POLICY_URL = 'https://camellador.com';
 const INQUIRY_SUPPORT_EMAIL = 'support@camellador.com';
 
 /// You can add help line number here for contact. It's demo number

@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>438524885554-8ljhtg9s08f65pekucqb5cdkfrq5d214.apps.googleusercontent.com</string>
+	<string>750451349645-9hroegv28khah6oacs346a90rkfiik2j.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.438524885554-8ljhtg9s08f65pekucqb5cdkfrq5d214</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>438524885554-01gqfed1i1tpe9ntvn9og932uo8ivtfs.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.750451349645-9hroegv28khah6oacs346a90rkfiik2j</string>
 	<key>API_KEY</key>
-	<string>AIzaSyABNz-zXkMtGvH1tpWyqJ6oAals5jpgOs0</string>
+	<string>AIzaSyCzTqo72zAG1ukuVp32Ch5CV6tB1tqiGjw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>438524885554</string>
+	<string>750451349645</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.iqonic.user</string>
+	<string>com.camellador.userapp</string>
 	<key>PROJECT_ID</key>
-	<string>bookingsystem-3be5c</string>
+	<string>camellador-user</string>
 	<key>STORAGE_BUCKET</key>
-	<string>bookingsystem-3be5c.appspot.com</string>
+	<string>camellador-user.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:438524885554:ios:bb3d4f37ecb2fb904f9a2b</string>
+	<string>1:750451349645:ios:faff0feb752f1d1b002ac4</string>
 </dict>
 </plist>

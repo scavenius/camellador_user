@@ -288,27 +288,27 @@ class _SignInScreenState extends State<SignInScreen> {
             ),
           if (appConfigurationStore.googleLoginStatus) 16.height,
           if (appConfigurationStore.otpLoginStatus)
-            AppButton(
-              text: '',
-              color: context.cardColor,
-              padding: EdgeInsets.all(8),
-              textStyle: boldTextStyle(),
-              width: context.width() - context.navigationBarHeight,
-              child: Row(
-                children: [
-                  Container(
-                    padding: EdgeInsets.all(8),
-                    decoration: boxDecorationWithRoundedCorners(
-                      backgroundColor: primaryColor.withOpacity(0.1),
-                      boxShape: BoxShape.circle,
-                    ),
-                    child: ic_calling.iconImage(size: 18, color: primaryColor).paddingAll(4),
-                  ),
-                  Text(language.lblSignInWithOTP, style: boldTextStyle(size: 12), textAlign: TextAlign.center).expand(),
-                ],
-              ),
-              onTap: otpSignIn,
-            ),
+            // AppButton(
+            //   text: '',
+            //   color: context.cardColor,
+            //   padding: EdgeInsets.all(8),
+            //   textStyle: boldTextStyle(),
+            //   width: context.width() - context.navigationBarHeight,
+            //   child: Row(
+            //     children: [
+            //       Container(
+            //         padding: EdgeInsets.all(8),
+            //         decoration: boxDecorationWithRoundedCorners(
+            //           backgroundColor: primaryColor.withOpacity(0.1),
+            //           boxShape: BoxShape.circle,
+            //         ),
+            //         child: ic_calling.iconImage(size: 18, color: primaryColor).paddingAll(4),
+            //       ),
+            //       Text(language.lblSignInWithOTP, style: boldTextStyle(size: 12), textAlign: TextAlign.center).expand(),
+            //     ],
+            //   ),
+            //   onTap: otpSignIn,
+            // ),
           if (appConfigurationStore.otpLoginStatus) 16.height,
           if (isIOS)
             if (appConfigurationStore.appleLoginStatus)
